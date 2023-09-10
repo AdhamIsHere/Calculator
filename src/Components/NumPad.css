@@ -1,0 +1,37 @@
+/* NumPad.css */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+.equal-width-buttons {
+  width: 3em;
+}
+.screen-container {
+  max-width: fit-content; /* Adjust the percentage as needed */
+  min-width: 18em;
+
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.custom-padding {
+  padding-left: 11px;
+  padding-top: 7px;
+  padding-bottom: 9px;
+}
+
+.custom-width {
+  min-width: 14.6em;
+}
+
+.custom-back {
+  background-color: rgba(255, 255, 255, 0.253);
+  min-width: 30em;
+  min-height: 35em;
+  margin-top: 6em;
+  padding-top: 2.5em;
+  border-radius: 2em;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
